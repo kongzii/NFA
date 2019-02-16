@@ -1,8 +1,7 @@
 # NFA
 Full NFA implementation in C++. Supports epsilon closures, Any transitions and Any-except-{} transitions.
 
-## Simple example
-
+## Simple example
 ```C++
 int main() {
     // abc in string
