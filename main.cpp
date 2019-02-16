@@ -1,9 +1,7 @@
-# NFA
-Full NFA implementation in C++. Supports epsilon closures, Any transitions and Any-except-{} transitions.
+#include <iostream>
 
-## Simple example
+#include "Automata/NFA.h"
 
-```C++
 int main() {
     // abc in string
     automata::NFA simple({"a", "b", "c", "d"});
@@ -34,8 +32,3 @@ int main() {
         std::cout << "HURRAY" << std::endl;
     }
 }
-```
-
-## Levenshtein distance
-
-Creation of NFA for calculating Levenshtein distance in NFA::levenshtein.
