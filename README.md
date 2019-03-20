@@ -1,4 +1,7 @@
 # NFA
+
+A nondeterministic finite automaton (NFA), or nondeterministic finite state machine, does not need to obey these restrictions. In particular, every DFA is also an NFA. Sometimes the term NFA is used in a narrower sense, referring to a NFA that is not a DFA, but not in this article. 
+
 Full NFA implementation in C++. Supports epsilon closures, Any transitions and Any-except-{} transitions.
 
 ## Simple example
@@ -37,4 +40,4 @@ int main() {
 
 ## Levenshtein distance
 
-Creation of NFA for calculating Levenshtein distance in NFA::levenshtein.
+Source code for automatic creation of Levenshtein NFA for calculating distance between two words is in NFA::levenshtein.
